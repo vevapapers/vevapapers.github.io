@@ -8665,3 +8665,9 @@ textarea.form-control {
   justify-content: center;
   align-items: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .flip-container {
+    max-height: 100%;
+  }
+}
